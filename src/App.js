@@ -4,10 +4,9 @@ import './App.css';
 import MainLogin from './Components/MainLogin';
 
 const AppBody = glamorous.div({
-  textAlign: 'center',
   minWidth: '100vw',
   minHeight: '100vh',
-
+  position: 'absolute',
 });
 
 const Box = glamorous.div({
@@ -17,6 +16,7 @@ const Box = glamorous.div({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  width: '100%',
 });
 
 const App = () => (
